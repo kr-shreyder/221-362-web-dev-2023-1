@@ -1,0 +1,86 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+.header {
+	background-color: peachpuff;
+	text-align: center;
+}
+
+.container {
+	max-width: 75%;
+	margin: 0 auto;
+}
+
+.menu {
+	background-color: peachpuff;
+	padding: 10px 0;
+	font-size: 1.2 rem;
+	font-weight: bold;
+}
+
+.menu a {
+	text-decoration: none;
+	color: #000;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.menu ul {
+	list-style-type: none;
+	padding: 0;
+	text-align: center;
+}
+
+.menu li {
+	display: inline;
+	margin: 0 20px;
+}
+
+main {
+	background-color: rgb(255, 255, 255);
+}
+
+h1 {
+	text-align: center;
+}
+
+.picture {
+	height: 500px;
+	text-align: center;
+	margin: 3rem 0;
+}
+
+.picture img {
+	height: 100%;
+	width: 100%;
+}
+
+.pony-table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-top: 20px;
+}
+
+.pony-table th,
+.pony-table td {
+	border: 1px solid #000000;
+	padding: 10px;
+	text-align: left;
+}
+
+.pony-table th {
+	background-color: #f0f0f0;
+	text-align: center;
+}
+
+.footer {
+	text-align: right;
+	background-color: #f0f0f0;
+	padding: 10px;
+}
+
+.footer-content {
+	display: inline-block;
+}
