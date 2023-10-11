@@ -1,4 +1,4 @@
-<?php require 'header.php' ?>
+<?php include 'header.php' ?>
 
 <?php $ponyCharacter = array(
     "Короткие ноги",
@@ -118,4 +118,4 @@
     </div>
 </main>
 
-<?php require 'footer.php' ?>
+<?php include 'footer.php' ?>
