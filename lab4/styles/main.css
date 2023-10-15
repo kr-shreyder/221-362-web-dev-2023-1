@@ -51,19 +51,6 @@ form {
 	text-align: center;
 }
 
-input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-/* Стили для кнопки "Заполнить снова" */
-form[action="header.html"] input[type="submit"] {
-    background-color: #007bff;
-}
-
-form[action="header.html"] input[type="submit"]:hover {
-    background-color: #0463c9;
-}
-
 .form-group {
 	margin-bottom: 20px;
 }
