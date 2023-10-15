@@ -1,4 +1,4 @@
-<?php require 'header.php' ?>
+<?php include 'header.php' ?>
 
 <?php $ponyCharacter = array(
     "Короткие ноги",
@@ -15,10 +15,7 @@
 
             <figure class="picture">
                 <?php
-                $s = date('s');
-                $os = $s % 2;
-
-                if ($os === 0)
+                if(date('s') % 2 === 0)
                     $name = 'resources/Pony1.png';
                 else
                     $name = 'resources/Pony2.jpg';
@@ -118,4 +115,4 @@
     </div>
 </main>
 
-<?php require 'footer.php' ?>
+<?php include 'footer.php' ?>
