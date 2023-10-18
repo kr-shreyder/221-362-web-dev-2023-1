@@ -71,7 +71,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                 <div class="form-group">
                     <label class="form-label" for="message">Текст сообщения:</label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Введите сообщениe"> </textarea>
+                    <textarea name="message" id="message" cols="30" rows="4" placeholder="Введите сообщениe"> </textarea>
                 </div>
 
                 <div class="form-group">
