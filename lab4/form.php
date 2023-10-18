@@ -27,9 +27,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $file = $_POST['file'];
     $agreement = isset($_POST['agreement']) ? 'Да' : 'Нет';
     $source = $_POST['source'];
-
-    header("Location: home.php?fio=$name&message=$message&source=$source&file=$file");
-    exit();
 }
 ?>
 
