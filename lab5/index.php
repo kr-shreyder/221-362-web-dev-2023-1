@@ -9,7 +9,7 @@ $result = pg_query($bd_conn, "SELECT * FROM images ORDER BY id");
     while ($name = pg_fetch_assoc($result)) {
         ?>
         <figure class="picture">
-            <img title="<?php echo $name['title']; ?>" src="<?php echo $name['path']; ?>" />
+            <img title="<?php echo $name['title']; ?>" src="images/<?php echo $name['path'];?>" />
         </figure>
         <?php
     }
