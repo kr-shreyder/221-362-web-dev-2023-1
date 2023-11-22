@@ -1,4 +1,4 @@
-<!-- <?php
+<?php
 
 // Настройки подключения к БД
 $db_host = 'localhost';
@@ -14,4 +14,5 @@ if (!$link) {
     die("Cannot connect DB: " . mysqli_connect_error());
 }
 
-?> -->
+?>
+

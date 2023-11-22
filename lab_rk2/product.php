@@ -33,3 +33,4 @@ echo '<a href="catalog.php" class="button">Назад в каталог</a>';
 
 require 'footer.php';
 ?>
+
