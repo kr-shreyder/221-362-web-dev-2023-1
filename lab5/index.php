@@ -1,7 +1,7 @@
 <?php
 include 'header.php';
 include 'bd.php';
-$result = pg_query($bd_conn, "SELECT * FROM images ORDER BY id");
+$result = pg_query($bd_conn, "SELECT * FROM images");
 ?>
 
 <div class="container">
